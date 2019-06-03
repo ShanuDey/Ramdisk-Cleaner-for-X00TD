@@ -38,6 +38,21 @@ chmod -R 755 $ramdisk/sbin;
 ## AnyKernel install
 dump_boot;
 
+## <shanu>
+ui_print ""
+ui_print "########################"
+ui_print ""
+ui_print "  Ramdisk Cleaner X00T  "
+ui_print ""
+ui_print "########################"
+ui_print "version : 1"
+ui_print "build type: stable"
+ui_print "device : X00TD"
+ui_print "developed by : shanu"
+ui_print " "
+## </shanu>
+
+
 # begin ramdisk changes
 
 # backup of init.rc file
